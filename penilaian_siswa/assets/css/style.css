@@ -1,0 +1,44 @@
+/* mengatur warna backgroud dan padding pada tag body bagian atas agar form tidak menempel diatas */
+body{
+	background: #e6e6e6;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mengatur warna backgroud form */
+form{
+	background: #e6e6e6;
+}
+
+.container {
+	padding: 50px;
+}
+
+/* mengatur border dan padding class form-container */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #00FFFF;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #00FFFF;
+	color: white;
+}
